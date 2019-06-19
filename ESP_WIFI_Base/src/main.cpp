@@ -1,3 +1,19 @@
+// WiFi includes
+#include <ESP8266WiFi.h>
+#include <ESP8266mDNS.h>
+#include <WiFiUdp.h>
+//#include <NTPClient.h>
+#include <WiFiClient.h>
+#include <ESP8266WebServer.h>
+#include <DNSServer.h>
+
+// OTA Includes
+#include <ArduinoOTA.h>
+
+// Custom Includes
+#include "config.h"
+
+
 /**
  * Blink
  *
