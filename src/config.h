@@ -1,7 +1,7 @@
 
 #define OTA
 #define CLIENTID "esp_wifi_base"
-//#define SERIALDEBUG
+#define SERIALDEBUG
 
 // Hostname
 const char *myHostname = CLIENTID;
